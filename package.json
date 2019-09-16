@@ -7,10 +7,10 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kefranabg/readme-md-generator.git"
+    "url": "https://github.com/plm9606/express-server-boilerplate.git"
   },
   "scripts": {
-    "start": "node ./bin/www",
+    "start": "nodemon node ./bin/www",
     "build": "webpack -w",
     "test": "jest"
   },
@@ -28,14 +28,27 @@
     "@babel/cli": "^7.6.0",
     "@babel/core": "^7.6.0",
     "@babel/preset-env": "^7.6.0",
+    "@commitlint/cli": "^8.1.0",
+    "@commitlint/config-conventional": "^8.1.0",
     "babel-loader": "^8.0.6",
     "eslint": "^6.4.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
+    "husky": "^3.0.5",
     "jest": "^24.9.0",
     "mini-css-extract-plugin": "^0.8.0",
     "webpack": "^4.40.2",
     "webpack-cli": "^3.3.8"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
   }
 }
