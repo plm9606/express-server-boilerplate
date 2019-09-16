@@ -1,0 +1,41 @@
+{
+  "name": "express-server-boilerplate",
+  "version": "0.0.0",
+  "description": "Express, Webpack, Babel, jest, SCSS가 적용되어 있는 서버 보일러플레이트 입니다. ",
+  "author": "Aram Lee",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kefranabg/readme-md-generator.git"
+  },
+  "scripts": {
+    "start": "node ./bin/www",
+    "build": "webpack -w",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.6.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "eslint-plugin-react": "^7.14.3",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "jest": "^24.9.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8"
+  }
+}
