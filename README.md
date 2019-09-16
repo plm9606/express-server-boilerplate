@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1 align="center">Welcome to express-server-boilerplate 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.0.0-blue.svg?cacheSeconds=2592000" />
@@ -50,3 +51,7 @@ This project is [MIT](https://github.com/kefranabg/readme-md-generator/blob/mast
 ---
 
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+=======
+# express-server-boilerplate
+Express-generater, Webpack, Babel, jest, SCSS가 적용되어있는 익스프레스 서버 보일러플레이트 입니다.
+>>>>>>> 236d0aa4ddd9e15492cc78b9a7d4ff2574e24fbd
