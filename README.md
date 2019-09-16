@@ -12,7 +12,7 @@
   </a>
 </p>
 
-> `Express-generater`, `Webpack`, `Babel`, `jest`, `SCSS`가 적용되어있는 익스프레스 서버 보일러플레이트 입니다.
+> `Express-generater`, `Webpack`, `Babel`, `jest`, `SCSS`, `ESLint`가 적용되어있는 익스프레스 서버 보일러플레이트 입니다.
 
 > `commitlint`을 사용하여 커밋 컨벤션을 지키도록 합니다.
 
