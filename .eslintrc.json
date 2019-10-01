@@ -4,7 +4,7 @@
     "es6": true,
     "node": true
   },
-  "extends": ["airbnb"],
+  "extends": ["airbnb", "prettier"],
   "plugins": ["jsx-a11y", "react", "import"],
   "globals": {
     "Atomics": "readonly",
